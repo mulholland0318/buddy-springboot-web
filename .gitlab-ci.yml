@@ -1,12 +1,14 @@
 stages:
   - stage1
   - stage2
+
 job1: 
   stage: stage1
   only:
     - master
   script:
     - echo "stage1 job"
+    
 job2:
   stage: stage2
   only:
