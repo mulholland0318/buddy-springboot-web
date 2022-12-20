@@ -5,13 +5,13 @@ stages:
 job1: 
   stage: stage1
   only:
-    - master
+    - main
   script:
     - echo "stage1 job"
-    
+
 job2:
   stage: stage2
   only:
-    - master
+    - main
   script: 
     - echo "stage2 job"
